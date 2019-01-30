@@ -1,0 +1,20 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "cypress:run": "cypress run",
+    "start": "live-server",
+    "test": "npm run cypress"
+  },
+  "author": "",
+  "dependencies": {
+    "cypress": "^3.1.4",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-cypress": "^2.2.0"
+  }
+}
